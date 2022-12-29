@@ -1,0 +1,101 @@
+/* common style */
+*,
+::after,
+::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+section {
+  padding: 40px;
+}
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* image section style */
+#email_tamplate {
+}
+.main_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main_section .left_side_part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  flex-basis: 60%;
+  max-width: 60%;
+  padding: 27px;
+}
+.main_section .left_side_part .name_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(206, 120, 15);
+  padding: 27px;
+}
+.main_section .left_side_part .name_section .image_section {
+}
+.main_section .left_side_part .name_section .image_section img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+.main_section .left_side_part .name_section .name_part {
+}
+.main_section .left_side_part .name_section .name_part h1 {
+}
+.main_section .left_side_part .name_section .name_part h3 {
+}
+.main_section .left_side_part .name_section .name_part p {
+}
+.main_section .address_section {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  background-color: cornflowerblue;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.main_section .address_section .address_icons {
+  padding: 0 96px;
+}
+
+.main_section .address_section .address_icons a {
+}
+.main_section .address_section .address_icons i {
+}
+
+.main_section .address_section .address_icons p {
+}
+/* right side part style */
+.main_section .right_side_part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 40%;
+  max-width: 40%;
+  height: 300px;
+  background-color: rgb(211, 125, 20);
+  padding: 20px;
+}
+.main_section .right_side_part .logo {
+  background-color: rgb(211, 125, 20);
+}
+.main_section .right_side_part .logo img {
+}
